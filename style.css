@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-color: #f0daa2;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #ffff;
+    padding: 40px;
+    margin:8% auto;  
+    border-radius: 20px;
+    
+  
+}
+input{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid black;
+    
+}
+h2{
+    text-align: center;
+}
+.enter{
+    margin-top: 9%;
+}
+.dropdown{
+    display: flex;
+    margin-top: 9%;
+    /* justify-content: center; */
+  
+}
+
+.dropdowns i {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    align-content: center;
+  }
+  
+.selectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+
+  }
+  .selectContainer img{
+    max-width: 2rem;
+  }
+.msg{
+    margin-top: 9%;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(167, 184, 93);
+    cursor: pointer;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 9% auto 0;  /* top left/right bottom*/
+    transition: transform 0.3s ease;    /*adds animation*/
+}
+.btn:hover{
+    background-color: rgb(184, 196, 128);
+    transform: scale(1.05);
+}
+
+@media screen and  (max-width: 375px){
+
+    .container{
+    background-color: #ffff;
+    padding: 40px;
+    margin:8% 10%;  
+  
+}
+.msg{
+    font-size: 15px;
+}
+.btn{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    display: block;
+    margin: 9% auto 0;  /* top left/right bottom*/
+}
+}
